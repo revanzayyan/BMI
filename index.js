@@ -4,7 +4,7 @@ function hitungBmi() {
     let tinggiBadan = document.getElementById("tinggi-badan").value/100;
 
     let bmi = beratBadan / (tinggiBadan**2);
-    
+
     //conditional
 
     if (bmi < 18.5) {
